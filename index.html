@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>addition of 2 numbers</title>
+  </head>
+  <body>
+    <script type="module">
+      import init, {add} from "./pkg/add_wasm.js";
+      init()
+        .then(() => {
+          add("Addition");
+          alert(add(10,40));
+          
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "add-wasm",
+  "collaborators": [
+    "neha"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "add_wasm_bg.wasm",
+    "add_wasm.js",
+    "add_wasm.d.ts"
+  ],
+  "module": "add_wasm.js",
+  "types": "add_wasm.d.ts",
+  "sideEffects": false
+}
